@@ -258,6 +258,149 @@
     max-width: 1010px;
 }
 
+// ----------
+.servind-title {
+    h2 {
+        margin-bottom: 37px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        color: #fff;
+    }
+}
+
+.servind-listitem {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 28px 0;
+        max-width: 532px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        li {
+            color: #fff;
+            position: relative;
+            margin-bottom: 28px;
+            padding-left: 52px;
+
+            &::after {
+                content: '';
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                background: url('../img/new/list-star.svg') no-repeat center / 100%;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    h2 {
+        margin-bottom: 28px;
+    }
+
+    ul+h3 {
+        margin-top: 56px;
+    }
+
+    p {
+        color: #fff;
+        max-width: 532px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.serviceinfo__body.darkbg {
+    background: #433041;
+}
+
+.serviceinfo__body {
+    padding: 90px 0;
+}
+
+.labeltext__servtitle {
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    padding: 40px 55px;
+    background: url('../img/new/circle.png') no-repeat center / 100% 100%;
+}
+
+.service-section {
+    .headbox {
+        margin-bottom: 80px;
+
+        h2 {
+            margin-bottom: 16px;
+        }
+
+        p {
+            color: #fff;
+            margin: 0;
+            margin: 0 auto;
+        }
+    }
+
+    .bottombox {
+        margin-top: 70px;
+        text-align: center;
+
+        &>*:last-child {
+            margin-bottom: 0;
+        }
+
+        h4 {
+            color: #fff;
+            font-size: 24px;
+            font-family: 'Miller_Banner_Bold';
+            line-height: 150%;
+        }
+    }
+}
+
+.starelem {
+    position: absolute;
+    left: -84px;
+    top: 0;
+    animation: move 3s infinite;
+}
+
+.transformation__descr {
+    h4 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .lgtext {
+        font-size: 24px;
+        line-height: 150%;
+    }
+}
+
+
 @media(max-width:1530.8px) {
     .serviceinfo__header-img img {
         width: 80%;
@@ -313,6 +456,16 @@
         padding: 60px 0;
     }
 
+    // ----------
+
+    .servind-listitem,
+    .servind-title h3 {
+        br {
+            display: none;
+        }
+    }
+
+
 }
 
 @media(max-width:1199.8px) {
@@ -357,13 +510,13 @@
     }
 
 
-    .servind-title {
-        text-align: center;
+    // .servind-title {
+    //     text-align: center;
 
-        .labeltext {
-            margin: 0 auto 20px;
-        }
-    }
+    //     .labeltext {
+    //         margin: 0 auto 20px;
+    //     }
+    // }
 
     .serviceinfo__header .star1 {
         display: none;
@@ -379,12 +532,48 @@
         top: 0;
     }
 
+    // -----------
+    .starelem {
+        display: none;
+    }
+
 }
 
 @media(max-width:991.8px) {
     .serviceinfo__header .star2 {
         display: none;
     }
+
+    .servind-title {
+        margin-bottom: 30px;
+    }
+
+    .service-section {
+        .headbox {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            margin-bottom: 25px;
+        }
+    }
+
+    .transformation__descr {
+
+        h4,
+        p {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .service-section .bottombox h4,
+    .service-section .headbox p {
+        br {
+            display: none;
+        }
+    }
+
 }
 
 @media(max-width:767.8px) {
@@ -415,6 +604,16 @@
 
     .serviceinfo__header-img img {
         width: 100%;
+    }
+
+    .servind-listitem ul {
+        li:last-child {
+            margin-bottom: 25px;
+        }
+    }
+
+    .service-section .bottombox {
+        margin-top: 40px;
     }
 }
 
@@ -456,4 +655,29 @@
     .indserv-quote h4 br {
         display: none;
     }
+
+    // --------------
+    .servind-title h2 {
+        margin-bottom: 20px;
+    }
+
+    .servind-listitem ul {
+        margin-bottom: 20px;
+
+        li {
+            margin-bottom: 15px;
+        }
+    }
+
+    .servind-listitem ul+h3 {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+        .servind-listitem ul li:last-child {
+        margin-bottom: 15px;
+    }
+
+
+
 }
