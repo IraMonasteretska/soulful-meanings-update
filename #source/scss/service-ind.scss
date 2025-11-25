@@ -32,7 +32,7 @@
 
 .serviceinfo__header {
     position: relative;
-    padding: 265px 0 0 0;
+    padding: 220px 0 40px 0;
 
     .container {
         position: relative;
@@ -371,6 +371,14 @@
             font-family: 'Miller_Banner_Bold';
             line-height: 150%;
         }
+
+        p {
+            color: #fff;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 
@@ -400,6 +408,13 @@
     }
 }
 
+.serviceinfo__header-img img {
+    margin-top: 0;
+}
+
+.serviceinfo__body .labeltext {
+    margin-bottom: 28px;
+}
 
 @media(max-width:1530.8px) {
     .serviceinfo__header-img img {
@@ -568,10 +583,15 @@
     }
 
     .service-section .bottombox h4,
-    .service-section .headbox p {
+    .service-section .headbox p,
+    .service-section .bottombox p {
         br {
             display: none;
         }
+    }
+
+    .serviceinfo__header {
+        padding-bottom: 0;
     }
 
 }
@@ -674,8 +694,12 @@
         margin-top: 30px;
     }
 
-        .servind-listitem ul li:last-child {
+    .servind-listitem ul li:last-child {
         margin-bottom: 15px;
+    }
+
+    .transformation__descr .lgtext {
+        font-size: 21px;
     }
 
 

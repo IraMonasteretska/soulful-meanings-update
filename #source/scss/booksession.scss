@@ -1,5 +1,9 @@
 .booksection {
-    padding: 70px 0 100px;
+    padding: 80px 0 100px;
+
+    .container {
+        position: relative;
+    }
 }
 
 .back {
@@ -153,6 +157,65 @@
     }
 }
 
+// -------------
+.booksection-content {
+    h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        color: #fff;
+        font-size: 24px;
+        line-height: 150%;
+        margin-bottom: 6px;
+        font-family: 'Miller_Banner_Bold';
+    }
+
+    .booknow {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Lato", sans-serif;
+    }
+}
+
+.bookbox {
+    text-align: center;
+    margin: 40px 0;
+
+    p {
+        margin-bottom: 40px;
+    }
+}
+
+.backlink {
+    color: #fff;
+    position: absolute;
+    left: -12px;
+    top: -30px;
+    padding-left: 40px;
+    text-decoration: none;
+
+    img {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: 0.3s;
+    }
+
+    &:hover {
+        img {
+            transform: translateY(-50%) translateX(-5px);
+        }
+    }
+}
+
 @media(max-width:767.8px) {
     .bookserv .bookserv__info {
         flex-wrap: wrap;
@@ -171,6 +234,17 @@
 
     .booksection {
         padding: 50px 0 70px;
+    }
+
+    .booksection-content h2,
+    .booksection-content p {
+        br {
+            display: none;
+        }
+    }
+
+    .bookbox p {
+        margin-bottom: 20px;
     }
 }
 

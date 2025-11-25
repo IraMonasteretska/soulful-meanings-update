@@ -93,12 +93,12 @@ $(document).ready(function () {
     });
 
     // book a session
-    $('.booknow').click(function(){
+    $('.booknow').click(function () {
         $('.ourservicesrow').addClass('hide');
         $('.calendywrap').addClass('active');
     });
 
-     $('.back a').click(function(e){
+    $('.back a').click(function (e) {
         e.preventDefault();
         $('.ourservicesrow').removeClass('hide');
         $('.calendywrap').removeClass('active');
@@ -110,14 +110,16 @@ $(document).ready(function () {
 
 
     // 26.08
-    $('header.header ul li a~span').click(function(){
+    $('header.header ul li a~span').click(function () {
         $(this).toggleClass('rotate');
         $(this).parent().find('ul').slideToggle();
     });
 
-    $('.servind-faqs__header').click(function(){
+    $('.servind-faqs__header').click(function () {
         $(this).toggleClass('rotate');
         $(this).next('.servind-faqs__body').slideToggle();
     });
+
+  
 
 })
