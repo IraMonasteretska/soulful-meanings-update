@@ -4,7 +4,7 @@ html {
     margin: 0;
     padding: 0;
     line-height: 150%;
-    font-family: "Lato", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
 }
 
@@ -145,7 +145,7 @@ h1 {
     line-height: 130%;
     font-size: 52px;
     font-weight: 700;
-    font-family: 'Miller_Banner_Bold';
+   font-family: "Playfair Display", serif;
     margin-bottom: 32px;
 }
 
@@ -154,15 +154,19 @@ h2 {
     line-height: 142%;
     font-size: 42px;
     font-weight: 700;
-    font-family: 'Miller_Banner_Bold';
+    font-family: "Playfair Display", serif;
 }
 
 h3 {
     color: #fff;
     font-weight: 700;
-    font-family: 'Miller_Banner_Bold';
+    font-family: "Playfair Display", serif;
     line-height: 150%;
     font-size: 32px;
+}
+
+h4 {
+    font-family: "Playfair Display", serif;
 }
 
 .text-center {

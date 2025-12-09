@@ -38,7 +38,7 @@
     span {
         font-size: 42px;
         font-weight: 700;
-        font-family: 'Miller_Banner_Bold';
+        font-family: "Playfair Display", serif;
         color: #fff;
         display: inline-block;
         position: absolute;
@@ -211,6 +211,10 @@
     .imgwrap {
         margin-left: 20px;
     }
+}
+
+.countbox span {
+    transform: translateY(-7px);
 }
 
 @media(max-width:1399.8px) {

@@ -24,7 +24,7 @@
     h1 {
         text-align: center;
         color: #433041;
-        font-family: 'Miller_Banner_Bold';
+        font-family: "Playfair Display", serif;
         font-weight: 700;
 
         &:last-child {
@@ -32,7 +32,6 @@
         }
 
         span {
-            font-family: 'Miller_Banner_Regular_Italic';
             font-style: italic;
             font-weight: 400;
         }
