@@ -177,7 +177,7 @@
 
     .star1 {
         position: absolute;
-        right: 20px;
+        right: -50px;
         animation: move 3s infinite;
         animation-delay: 0.5s;
     }
@@ -193,7 +193,7 @@
     }
 
     h3 {
-        max-width: 418px;
+        // max-width: 418px;
         margin-bottom: 28px;
     }
 
@@ -242,14 +242,13 @@
 
 
 
+
 @media(max-width:1399.8px) {
     .journey__infosect-descr .descr {
         padding-left: 50px;
     }
 
-    .journey__infosect-descr .star1 {
-        right: -20px;
-    }
+   
 
     .journey__infosect-descr .star2 {
         left: -20px;
