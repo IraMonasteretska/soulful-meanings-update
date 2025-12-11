@@ -217,6 +217,29 @@
     transform: translateY(-7px);
 }
 
+.process__descr h3 {
+    position: relative;
+}
+
+.stepcount {
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    transform: translateY(-70%);
+    font-size: 240px;
+    opacity: 0.3;
+    line-height: normal;
+}
+
+.process__row:nth-child(2n) {
+    .stepcount {
+        left: initial;
+        right: -80px;
+    }
+}
+
+
+
 @media(max-width:1399.8px) {
     .journey__infosect-descr .descr {
         padding-left: 50px;
