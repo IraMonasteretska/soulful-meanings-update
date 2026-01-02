@@ -416,6 +416,25 @@
     margin-bottom: 28px;
 }
 
+.herosection.herosection__service {
+    h1 {
+        margin-bottom: 12px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        text-align: center;
+        color: #fff;
+
+        &.text-black {
+            color: #121212;
+        }
+    }
+}
+
 @media(max-width:1530.8px) {
     .serviceinfo__header-img img {
         width: 80%;
@@ -634,6 +653,10 @@
 
     .service-section .bottombox {
         margin-top: 40px;
+    }
+
+    .herosection.herosection__service p br {
+        display: none;
     }
 }
 
