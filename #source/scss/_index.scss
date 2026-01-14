@@ -56,6 +56,11 @@
 
     h1 {
         position: relative;
+        font-weight: 400;
+
+        b {
+            font-weight: 700;
+        }
 
         span {
             display: block;
@@ -186,7 +191,7 @@
     .container {
         position: relative;
         z-index: 2;
-        padding: 233px 0 50px;
+        padding: 180px 0 90px;
     }
 
     h3 {
@@ -487,6 +492,14 @@
         right: 24%;
     }
 
+    .whatismeaning .container {
+        padding: 90px 0 50px;
+    }
+
+    .whatismeaning .bgradius {
+        object-fit: cover;
+        object-position: center 0;
+    }
 }
 
 @media(max-width:991.8px) {
@@ -574,6 +587,10 @@
     .whatismeaning__leftimg {
         width: 200px;
         bottom: 20px;
+    }
+
+    .infosection h2 br {
+        display: none;
     }
 }
 
