@@ -1,0 +1,217 @@
+.artmain {
+    text-align: center;
+    padding: 120px 0 60px;
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        color: #fff;
+        margin-bottom: 56px;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .artmain__subtitle {
+        font-family: 'Miller_Banner_Regular_Italic';
+        font-size: 42px;
+        max-width: 860px;
+        margin: 0 auto 40px;
+        color: #fff;
+        line-height: normal;
+    }
+
+    .descr {
+        p {
+            margin-bottom: 20px;
+            color: #fff;
+
+            span {
+                font-size: 20px;
+                font-family: 'Miller_Banner_Bold';
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .styled-text {
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+
+        }
+    }
+}
+
+.artinfosect {
+    padding: 150px 0 190px;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(#433041, 0.7);
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .star1 {
+        position: absolute;
+        right: 30%;
+        top: 20%;
+        animation: move 3s infinite;
+        width: 50px;
+        animation-delay: 0.5s;
+        z-index: 3;
+    }
+
+    .star2 {
+        position: absolute;
+        left: 17%;
+        bottom: 28%;
+        animation: move 3s infinite;
+        width: 30px;
+        animation-delay: 0.5s;
+        z-index: 3;
+    }
+}
+
+.artinfosect__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.artinfosect .row {
+    margin-bottom: 25px;
+
+    &:nth-child(1) {
+        h2 img {
+            left: -62px;
+            top: -45px;
+            width: 316px;
+        }
+    }
+
+    &:nth-child(2) {
+        h2 img {
+            left: -42px;
+            top: -47px;
+            width: 431px;
+        }
+    }
+}
+
+.artinfosect__item {
+    h2 {
+        margin-bottom: 20px;
+        position: relative;
+        display: inline-block;
+
+        img {
+            position: absolute;
+            max-width: initial;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 150%;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.artinfosect__topshadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.artinfosect__bottshadow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.artwhothisfor {
+    padding: 120px 0 110px;
+}
+
+.circles-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle-item {
+    border: 1px solid #fff;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 359px;
+    flex: 0 0 359px;
+    margin-left: -50px;
+    border-radius: 50%;
+    background: #806F7F;
+    position: relative;
+
+    img {
+        width: 24px;
+    }
+
+    &:nth-child(1) {
+        margin-left: 0;
+    }
+
+    &:nth-child(2) {
+        img {
+            position: absolute;
+            left: 9px;
+            top: 79px;
+        }
+    }
+}
+
+.artwhothisfor__header {
+    text-align: center;
+    margin-bottom: 80px;
+
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    p {
+        color: #fff;
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}

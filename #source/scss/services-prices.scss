@@ -258,6 +258,24 @@
     }
 }
 
+.offering-infotext {
+    color: #fff;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 16px;
+    
+    &::after {
+        content: '';
+        display: inline-block;
+        width: 1.5px;
+        height: calc(100% - 2px);
+        position: absolute;
+        left: 0;
+        top: 2px;
+        background: #fff;
+    }
+}
+
 @media(max-width:1399.8px) {
 
     .pricing-section {
