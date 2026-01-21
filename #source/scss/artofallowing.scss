@@ -29,6 +29,7 @@
         p {
             margin-bottom: 20px;
             color: #fff;
+            line-height: 150%;
 
             span {
                 font-size: 20px;
@@ -169,6 +170,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .circle-item {
@@ -181,6 +183,18 @@
     border-radius: 50%;
     background: #806F7F;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        margin: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+    }
 
     img {
         width: 24px;
@@ -191,6 +205,22 @@
     }
 
     &:nth-child(2) {
+        img {
+            position: absolute;
+            left: 9px;
+            top: 79px;
+        }
+    }
+
+    &:nth-child(3) {
+        img {
+            position: absolute;
+            left: 9px;
+            bottom: 79px;
+        }
+    }
+
+    &:nth-child(4) {
         img {
             position: absolute;
             left: 9px;
@@ -214,4 +244,382 @@
         font-weight: 500;
     }
 
+}
+
+.artwhothisfor__styledtext {
+    font-family: 'Miller_Banner_Regular_Italic';
+    font-size: 42px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+}
+
+.artwork {
+    background: #433041;
+    padding: 100px 0;
+
+    .descr {
+        margin-top: 40px;
+
+        p {
+            color: #fff;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.artwork__item {
+    margin-bottom: 22px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 28px 15px 28px 28px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    img {
+        height: 56px;
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 8px;
+        line-height: 140%;
+    }
+
+    p {
+        margin: 0;
+        color: #fff;
+    }
+}
+
+.artqsect {
+    text-align: center;
+    padding: 80px 0 90px;
+
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(max-width:1399.8px) {
+    .artmain {
+        padding: 100px 0 60px;
+    }
+
+    .artmain .artmain__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .artinfosect .row:first-child h2 img {
+        left: -71px;
+        top: -44px;
+        width: 300px;
+    }
+
+    .artinfosect .row:nth-child(2) h2 img {
+        left: -39px;
+        top: -47px;
+        width: 400px;
+    }
+
+    .artinfosect {
+        padding: 150px 0 100px;
+    }
+
+    .artwhothisfor {
+        padding: 100px 0;
+    }
+
+    .artwhothisfor__header h2 {
+        margin-bottom: 15px;
+    }
+
+    .circle-item {
+        max-width: 316px;
+        flex: 0 0 316px;
+    }
+
+    .circle-item:nth-child(2) img,
+    .circle-item:nth-child(4) img {
+        left: 11px;
+        top: 60px;
+    }
+
+    .circle-item:nth-child(3) img {
+        left: 11px;
+        bottom: 60px;
+    }
+
+
+
+
+
+
+    .artmain img,
+    .artwhothisfor__header {
+        margin-bottom: 60px;
+    }
+
+    .artmain .subtitle {
+        margin-bottom: 40px;
+    }
+
+    .artmain .artmain__subtitle,
+    .artwhothisfor__styledtext {
+        font-size: 36px;
+    }
+
+    .artmain .descr .styled-text {
+        font-size: 21px;
+    }
+
+    .artwhothisfor__header p {
+        font-size: 18px;
+    }
+
+    .artinfosect__item p,
+    .circle-item p {
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width:1199.8px) {
+
+    .artmain {
+        padding: 70px 0 60px;
+    }
+
+    .artinfosect {
+        padding: 100px 0 70px;
+    }
+
+    .artwhothisfor,
+    .artwork,
+    .artqsect {
+        padding: 70px 0;
+    }
+
+    .circle-item {
+        max-width: 266px;
+        flex: 0 0 266px;
+    }
+
+    .circle-item:nth-child(2) img,
+    .circle-item:nth-child(4) img {
+        left: 8px;
+        top: 48px;
+    }
+
+    .circle-item:nth-child(3) img {
+        left: 8px;
+        bottom: 48px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .artmain img,
+    .circles-wrap {
+        margin-bottom: 40px;
+    }
+
+    .artmain .subtitle {
+        margin-bottom: 25px;
+    }
+
+
+    .artmain .artmain__subtitle,
+    .artwhothisfor__styledtext {
+        font-size: 28px;
+    }
+
+    .artmain .descr .styled-text {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991.8px) {
+
+    .circle-item {
+        max-width: 206px;
+        flex: 0 0 206px;
+    }
+
+    .circle-item:nth-child(2) img,
+    .circle-item:nth-child(4) img {
+        left: 8px;
+        top: 28px;
+    }
+
+    .circle-item:nth-child(3) img {
+        left: 8px;
+        bottom: 28px;
+    }
+
+    .artwhothisfor__header {
+        margin-bottom: 30px;
+    }
+
+    .artmain .artmain__subtitle,
+    .artwhothisfor__styledtext {
+        font-size: 24px;
+    }
+
+    .artwork {
+        h2 {
+            margin-bottom: 30px;
+        }
+    }
+
+
+
+
+    .circle-item p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:767.8px) {
+
+    .artinfosect h2 img,
+    .artinfosect .star1,
+    .artinfosect .star2 {
+        display: none;
+    }
+
+    .artinfosect__item h2 {
+        margin-bottom: 10px;
+    }
+
+    .artinfosect {
+        padding: 70px 0;
+    }
+
+    .circles-wrap {
+        flex-wrap: wrap;
+    }
+
+    .circle-item {
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-left: 0;
+
+        img {
+            display: none;
+        }
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            margin-left: -50px;
+        }
+    }
+
+    .circle-item p {
+        font-size: 16px;
+    }
+
+    .circle-item:nth-child(2) img,
+    .circle-item:nth-child(4) img {
+        left: 11px;
+        top: 60px;
+    }
+
+    .circle-item:nth-child(3) img {
+        left: 11px;
+        bottom: 60px;
+    }
+
+}
+
+@media(max-width:575.8px) {
+    .circles-wrap {
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .circle-item {
+        max-width: 70%;
+        flex: 0 0 70%;
+        margin-left: 0 !important;
+        margin-top: -50px;
+    }
+
+    .artwork__item h4 {
+        font-size: 21px;
+    }
+
+    .artwork__item {
+        padding: 20px;
+    }
+
+    .artwork__item img {
+        height: 46px;
+    }
+
+    .artqsect p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .artmain,
+    .artinfosect,
+    .artwhothisfor,
+    .artwork,
+    .artqsect {
+        padding: 50px 0;
+    }
+
+
+    .artmain img,
+    .circles-wrap {
+        margin-bottom: 30px;
+    }
+
+    .artmain .artmain__subtitle,
+    .artwhothisfor__styledtext {
+        font-size: 21px;
+    }
+
+    .artwhothisfor__header h2 {
+        margin-bottom: 10px;
+    }
+
+    .artwhothisfor__header p {
+        font-size: 16px;
+    }
 }
