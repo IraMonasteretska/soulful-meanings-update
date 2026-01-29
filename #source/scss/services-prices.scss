@@ -9,7 +9,7 @@
 }
 
 .services-overview {
-    padding: 90px 0 100px;
+    padding: 100px 0;
     position: relative;
     background: #806F7F;
 
@@ -44,10 +44,6 @@
         width: 29px;
     }
 }
-
-
-
-
 
 .pricing-section {
     position: relative;
@@ -273,6 +269,27 @@
         left: 0;
         top: 2px;
         background: #fff;
+    }
+}
+
+.invitation-box {
+    text-align: center;
+    margin-bottom: 68px;
+
+    p {
+        color: #fff;
+        font-weight: 300;
+
+        a {
+            font-weight: 400;
+            text-decoration: underline;
+            color: #fff;
+            text-underline-offset: 3px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 }
 
