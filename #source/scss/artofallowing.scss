@@ -13,7 +13,7 @@
 
     img {
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
 
     .artmain__subtitle {
@@ -163,7 +163,7 @@
 }
 
 .artwhothisfor {
-    padding: 120px 0 110px;
+    padding: 150px 0;
 }
 
 .circles-wrap {
@@ -256,7 +256,7 @@
 
 .artwork {
     background: #433041;
-    padding: 100px 0;
+    padding: 150px 0;
 
     .descr {
         margin-top: 40px;
@@ -301,7 +301,7 @@
 
 .artqsect {
     text-align: center;
-    padding: 80px 0 90px;
+    padding: 150px 0;
 
     h2 {
         margin-bottom: 25px;
@@ -339,11 +339,11 @@
     }
 
     .artinfosect {
-        padding: 150px 0 100px;
+        padding: 120px 0;
     }
 
     .artwhothisfor {
-        padding: 100px 0;
+        padding: 120px 0;
     }
 
     .artwhothisfor__header h2 {
@@ -366,12 +366,17 @@
         bottom: 60px;
     }
 
+    .artmain img {
+        margin-bottom: 120px;
+    }
+
+    .artwork,
+    .artqsect {
+        padding: 120px 0;
+    }
 
 
 
-
-
-    .artmain img,
     .artwhothisfor__header {
         margin-bottom: 60px;
     }
@@ -403,20 +408,6 @@
 
 @media(max-width:1199.8px) {
 
-    .artmain {
-        padding: 70px 0 60px;
-    }
-
-    .artinfosect {
-        padding: 100px 0 70px;
-    }
-
-    .artwhothisfor,
-    .artwork,
-    .artqsect {
-        padding: 70px 0;
-    }
-
     .circle-item {
         max-width: 266px;
         flex: 0 0 266px;
@@ -432,23 +423,6 @@
         left: 8px;
         bottom: 48px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .artmain img,
     .circles-wrap {
@@ -561,6 +535,11 @@
         bottom: 60px;
     }
 
+    .artwhothisfor,
+    .artqsect,
+    .artwork {
+        padding: 70px 0;
+    }
 }
 
 @media(max-width:575.8px) {
@@ -601,7 +580,7 @@
     .artwhothisfor,
     .artwork,
     .artqsect {
-        padding: 50px 0;
+        padding: 70px 0;
     }
 
 

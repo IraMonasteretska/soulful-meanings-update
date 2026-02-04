@@ -1,5 +1,5 @@
 .process {
-    padding: 100px 0 120px;
+    padding: 150px 0;
     position: relative;
     overflow: hidden;
 }
@@ -172,7 +172,7 @@
 }
 
 .journey__infosect {
-    padding: 120px 0 20px;
+    padding: 150px 0 0 0;
 }
 
 .journey__infosect-descr {
@@ -251,6 +251,13 @@
         padding-left: 50px;
     }
 
+    .journey__infosect {
+        padding-top: 120px;
+    }
+
+    .process {
+        padding: 120px 0;
+    }
 
 
     .journey__infosect-descr .star2 {

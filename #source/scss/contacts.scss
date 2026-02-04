@@ -1,5 +1,5 @@
 .contactinfo {
-    padding: 110px 0;
+    padding: 150px 0;
     position: relative;
     overflow: hidden;
 
@@ -342,6 +342,12 @@
     }
 }
 
+@media(max-width:1399.8px) {
+    .contactinfo {
+        padding: 120px 0;
+    }
+}
+
 @media(max-width:1199.8px) {
 
     .inputfield input {
@@ -398,11 +404,7 @@
     .contformsect .imgwrap {
         display: none;
     }
-
-    .contactinfo {
-        padding: 80px 0;
-    }
-
+   
     .contlistwrapper {
         max-width: 100%;
         margin-bottom: 50px;
@@ -430,6 +432,10 @@
 
     .contactinfo h4 br {
         display: none;
+    }
+
+    .contactinfo {
+        padding: 70px 0;
     }
 
 }

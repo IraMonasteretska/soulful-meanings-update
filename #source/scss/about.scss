@@ -45,7 +45,7 @@
 }
 
 .aboutsect {
-    padding: 180px 0 90px;
+    padding: 150px 0 120px;
 
     h3 {
         max-width: 418px;
@@ -67,9 +67,7 @@
     }
 
     .description {
-        padding-bottom: 15px;
         position: relative;
-        padding-top: 20px;
 
         .star1 {
             position: absolute;
@@ -129,7 +127,7 @@
     min-height: 405px;
     position: relative;
     overflow: hidden;
-    padding: 62px 0;
+    padding: 150px 0;
     text-align: center;
     display: flex;
     align-items: center;
@@ -182,20 +180,6 @@
 }
 
 .aboutsect.aboutsect_me {
-    padding: 70px 0;
-
-    .description .star1 {
-        top: -50px;
-        right: initial;
-        left: -100px;
-    }
-
-    .description .star2 {
-        top: 0;
-        right: 5%;
-        left: initial;
-
-    }
 
     p {
         max-width: 537px;
@@ -254,7 +238,7 @@
 
 // ----------------
 .aboutsect.aboutsect_me {
-    padding: 100px 0 90px;
+    padding: 150px 0;
 }
 
 .aboutsect.aboutsect_me .description .star2 {
@@ -285,12 +269,12 @@
     }
 
     .aboutsect {
-        padding: 100px 0 140px;
+        padding: 120px 0;
     }
 
     // -
     .aboutsect.aboutsect_me {
-        padding: 50px 0;
+        padding: 120px 0;
     }
 
     .aboutsect.aboutsect_me .description .star2 {
@@ -303,13 +287,13 @@
     .transformation h3 br {
         display: none;
     }
+
+    .transformation {
+        padding: 120px 0;
+    }
 }
 
 @media(max-width:1199.8px) {
-    .aboutsect {
-        padding: 70px 0 100px;
-    }
-
     .acrcol {
         text-align: left;
     }
@@ -322,10 +306,6 @@
     .aboutsect h2 {
         max-width: 100%;
         padding-right: 50px;
-    }
-
-    .aboutsect.aboutsect_me {
-        padding: 50px 0 30px;
     }
 
     // ----------
@@ -347,10 +327,6 @@
 }
 
 @media(max-width:991.8px) {
-    .aboutsect {
-        padding: 70px 0 100px;
-    }
-
     .aboutsect-radimgwrap {
         width: 270px;
         height: 370px;
@@ -427,7 +403,7 @@
     }
 
     .aboutsect {
-        padding: 70px 0;
+        padding: 100px 0;
     }
 
     .transformation__bg {
@@ -465,6 +441,10 @@
     .aboutsect.aboutsect_me {
         padding-bottom: 70px;
     }
+
+    .aboutsect.aboutsect_me {
+        padding: 70px 0;
+    }
 }
 
 @media(max-width:575.8px) {
@@ -490,7 +470,7 @@
     }
 
     .aboutsect {
-        padding: 60px 0 50px;
+        padding: 70px 0;
     }
 
     .aboutsect .description .star1 {
@@ -508,7 +488,7 @@
     }
 
     .transformation {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 
 

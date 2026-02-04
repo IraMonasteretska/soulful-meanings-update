@@ -9,7 +9,7 @@
 }
 
 .services-overview {
-    padding: 100px 0;
+    padding: 150px 0;
     position: relative;
     background: #806F7F;
 
@@ -313,13 +313,14 @@
         }
     }
 
-
+    .services-overview {
+        padding: 120px 0;
+    }
 
 }
 
 @media(max-width:1199.8px) {
     .services-overview {
-        padding: 70px 0;
         position: relative;
     }
 
@@ -412,7 +413,7 @@
     }
 
     .services-overview {
-        padding: 70px 0 50px;
+        padding: 70px 0;
         position: relative;
     }
 
@@ -449,7 +450,7 @@
 
 @media(max-width:575.8px) {
     .services-overview {
-        padding: 50px 0 30px;
+        padding: 70px 0;
     }
 
     .services-overview .star1 {
@@ -507,5 +508,10 @@
     .servpricingbox {
         min-height: 420px;
         padding: 36px;
+    }
+
+    .invitation-box,
+    .services-overview h2 {
+        margin-bottom: 40px;
     }
 }

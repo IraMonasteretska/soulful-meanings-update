@@ -1,5 +1,5 @@
 .welcomesect {
-    padding: 60px 0 125px 0;
+    padding: 150px 0 170px;
     position: relative;
     overflow: hidden;
 
@@ -49,7 +49,7 @@
     p {
         margin-bottom: 20px;
         color: #fff;
-        max-width: 526px;
+        max-width: 860px;
         position: relative;
         z-index: 2;
     }
@@ -57,6 +57,7 @@
     h1 {
         position: relative;
         font-weight: 400;
+
 
         b {
             font-weight: 700;
@@ -86,10 +87,6 @@
     //         color: #433041;
     //     }
     // }
-
-    .link-arrow span:after {
-        background: #433041;
-    }
 }
 
 .btnsgroup {
@@ -179,7 +176,7 @@
 
 .whatismeaning {
     position: relative;
-    min-height: 730px;
+    min-height: 700px;
 
     .bgradius {
         position: absolute;
@@ -191,7 +188,7 @@
     .container {
         position: relative;
         z-index: 2;
-        padding: 180px 0 90px;
+        padding: 205px 0 90px;
     }
 
     h3 {
@@ -201,7 +198,6 @@
 
     p {
         color: #121212;
-        margin: 20px;
 
         &:last-child {
             margin-bottom: 0;
@@ -210,18 +206,6 @@
 
     .descr {
         position: relative;
-
-        &::before {
-            content: '';
-            display: inline-block;
-            width: 49px;
-            height: 49px;
-            background: url('../img/main/star1.svg') no-repeat center / 100%;
-            position: absolute;
-            left: -73px;
-            top: 40px;
-            animation: move 3s infinite;
-        }
     }
 
     .starimg {
@@ -246,15 +230,12 @@
 
 .whatismeaning__leftimg {
     position: absolute;
-    left: calc((100vw - 1324px) / 2);
-    margin-left: -46px;
     width: 100%;
-    max-width: 465px;
-    bottom: -112px;
+    max-width: 330px;
 }
 
 .infosection {
-    padding: 160px 0 140px;
+    padding: 150px 0 150px;
 
     h2 {
         margin-bottom: 32px;
@@ -302,10 +283,9 @@
 }
 
 .welcomesect {
-    padding: 175px 0 140px;
 
     h1 {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     p {
@@ -320,24 +300,17 @@
     .white-btn:hover {
         background: #433041;
     }
-
-    .link-arrow {
-        color: #433041;
-
-    }
 }
 
 .whatismeaning__leftimg {
-    bottom: initial;
     top: 104px;
-    left: 67px;
-    margin-left: 0;
+    left: -10px;
 }
 
 .whatismeaning {
 
     p {
-        margin: 0 0 16px 0;
+        margin: 0 0 20px 0;
     }
 
     .descr {
@@ -413,9 +386,7 @@
     }
 
     .whatismeaning__leftimg {
-        left: calc((100vw - 1140px) / 2);
-        width: 350px;
-        bottom: -84px;
+        max-width: 300px;
     }
 
     .whatismeaning {
@@ -432,16 +403,12 @@
     }
 
     .infosection {
-        padding: 120px 0 100px;
+        padding: 120px 0 120px;
     }
 
 
     .welcomesect__info .subtitle {
         font-size: 18px;
-    }
-
-    .welcomesect__info {
-        padding-top: 70px;
     }
 
     .whatismeaning .starimg {
@@ -474,7 +441,6 @@
     }
 
     .whatismeaning__leftimg {
-        left: calc((100vw - 960px) / 2);
         width: 280px;
         bottom: -60px;
         margin-left: -30px;
@@ -534,7 +500,7 @@
     }
 
     .whatismeaning .container {
-        padding: 130px 0 150px;
+       padding: 120px 0;
     }
 
     .welcomesect__info .butterfly-img {
@@ -555,6 +521,12 @@
         display: block;
         max-width: 500px;
     }
+
+    .whatismeaning__leftimg {
+        display: none;
+    }
+
+
 }
 
 @media(max-width:767.8px) {
@@ -581,7 +553,7 @@
     }
 
     .whatismeaning .container {
-        padding: 160px 0 160px;
+        padding: 100px 0;
     }
 
     .whatismeaning__leftimg {
@@ -597,7 +569,7 @@
 @media(max-width:575.8px) {
 
     .welcomesect {
-        padding: 70px 0 120px;
+        padding: 80px 0;
     }
 
     .welcomesect__info .subtitle {
@@ -662,7 +634,7 @@
     }
 
     .whatismeaning .container {
-        padding: 70px 12px 120px;
+        padding: 80px 12px 80px;
     }
 
     .whatismeaning__leftimg {
@@ -689,7 +661,7 @@
     }
 
     .infosection {
-        padding: 120px 0 60px;
+        padding: 70px 0;
     }
 
 
@@ -699,11 +671,6 @@
 
     .welcomesect__info .btnsgroup {
         margin-bottom: 20px;
-    }
-
-
-    .welcomesect__info {
-        padding-top: 30px;
     }
 
     .welcomesect__info .btnsgroup {
@@ -722,6 +689,12 @@
 
     .whatismeaning .container {
         padding-bottom: 70px;
+    }
+
+    .infosection a {
+        min-width: 200px;
+        text-align: center;
+        justify-content: center;
     }
 
 }

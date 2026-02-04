@@ -1,5 +1,5 @@
 .booksection {
-    padding: 80px 0 100px;
+    padding: 150px 0;
 
     .container {
         position: relative;
@@ -168,6 +168,10 @@
         color: #fff;
         margin-bottom: 30px;
         text-align: center;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     h4 {
@@ -218,6 +222,12 @@
     }
 }
 
+@media(max-width:1399.8px) {
+    .booksection {
+        padding: 120px 0;
+    }
+}
+
 @media(max-width:767.8px) {
     .bookserv .bookserv__info {
         flex-wrap: wrap;
@@ -235,7 +245,7 @@
     }
 
     .booksection {
-        padding: 50px 0 70px;
+        padding: 70px 0;
     }
 
     .booksection-content h2,
